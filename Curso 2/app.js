@@ -8,13 +8,8 @@
 // Responsive Voice
 // vercel.com - Deploy
 // rep.new
-
-// GitHub ==> Plataforma onde hospedamos o código
-// Git ==> Ferramenta onde fazemos o controle de versões do código
-// git init ==> Inicializar um novo repositório. Antes utilizar o git status para verificar já tem o repositório, caso não (fatal: not a git repository) rode o git init.
-
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 function exibirTextoNaTela(tag, texto) {
